@@ -1,0 +1,74 @@
+[
+  {
+    "label": "qa_data.json, Gemma, Minimal Prompt Defense (all 500)",
+    "b": 83,
+    "c": 32,
+    "p_value": 2.1594312802256026e-06
+  },
+  {
+    "label": "qa_data.json, Gemma, Structured Hall.-Analysis (all 500)",
+    "b": 93,
+    "c": 46,
+    "p_value": 8.273710817885471e-05
+  },
+  {
+    "label": "qa_data.json, Qwen2.5-VL, Minimal Prompt Defense (all 500)",
+    "b": 35,
+    "c": 24,
+    "p_value": 0.19252645776146274
+  },
+  {
+    "label": "qa_data.json, Qwen2.5-VL, Structured Hall.-Analysis (all 500)",
+    "b": 40,
+    "c": 35,
+    "p_value": 0.644463913894226
+  },
+  {
+    "label": "NQ-Swap, Gemma, Minimal Prompt Defense (100)",
+    "b": 20,
+    "c": 6,
+    "p_value": 0.009355306625366211
+  },
+  {
+    "label": "NQ-Swap, Gemma, Structured Hall.-Analysis (100)",
+    "b": 17,
+    "c": 11,
+    "p_value": 0.34492845088243484
+  },
+  {
+    "label": "NQ-Swap, Qwen2.5-VL, Minimal Prompt Defense (100)",
+    "b": 3,
+    "c": 0,
+    "p_value": 0.25
+  },
+  {
+    "label": "NQ-Swap, Qwen2.5-VL, Structured Hall.-Analysis (100)",
+    "b": 3,
+    "c": 2,
+    "p_value": 1.0
+  },
+  {
+    "label": "TruthfulQA, Gemma, Minimal Prompt Defense (22)",
+    "b": 2,
+    "c": 0,
+    "p_value": 0.5
+  },
+  {
+    "label": "TruthfulQA, Gemma, Structured Hall.-Analysis (22)",
+    "b": 4,
+    "c": 0,
+    "p_value": 0.125
+  },
+  {
+    "label": "TruthfulQA, Qwen2.5-VL, Minimal Prompt Defense (22)",
+    "b": 0,
+    "c": 0,
+    "p_value": null
+  },
+  {
+    "label": "TruthfulQA, Qwen2.5-VL, Structured Hall.-Analysis (22)",
+    "b": 1,
+    "c": 2,
+    "p_value": 1.0
+  }
+]

@@ -1,0 +1,40 @@
+# Generated outputs — images and heavy result folders (keep small summary files)
+outputs_*/
+outputs/
+outputs_2_pipeline/
+outputs_2_again/
+*.png
+*.jpg
+*.jpeg
+
+# Keep the small, citeable result files even inside output folders
+!outputs_*/SUMMARY.json
+!outputs_*/entry_state.json
+!outputs_*/RECLASSIFIED_SUMMARY.json
+!outputs_*/*.csv
+!outputs_*/*.txt
+
+# Deprecated / superseded draft versions from earlier debugging
+*prev*.py
+*prev*.png
+*prev*.txt
+*incorrect*.py
+*workedtillnum*.py
+
+# Python environment and cache
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Unrelated scratch/test files, if these aren't part of this paper's pipeline
+test_pgd.py
+test_pgd2.py
+dialogue_data.json
+general_data.json
+summarization_data.json
+
+# Excluded exploratory files, not part of the final pipeline
+pipeline_swapped_models.py
+pipeline_swapped_models_test4.py
+pipeline_text_only.py
